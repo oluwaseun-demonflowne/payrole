@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { inter } from "@/util/font";
+import DesktopNav from "./(shared)/DesktopNav";
 
 export const metadata: Metadata = {
   title: "Payrole",
@@ -14,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <DesktopNav />
+        {children}
+      </body>
     </html>
   );
 }
