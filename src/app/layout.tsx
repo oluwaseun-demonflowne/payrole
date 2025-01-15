@@ -7,6 +7,11 @@ import MobileNav from "./(shared)/MobileNav";
 export const metadata: Metadata = {
   title: "Payrole",
   description: "Global Payroll Platform Made For Employees",
+  openGraph: {
+    images: [
+      "https://01yv5oa93e.ufs.sh/f/h8c8KUvkS3OsaTWZ4YS2F6ugHqBCXnQyK8k5DUvWwfrJjx9i",
+    ],
+  },
 };
 
 export default function RootLayout({
