@@ -2,7 +2,7 @@ import React from "react";
 
 const GetStarted = () => {
   return (
-    <section className="px-40 flex flex-col items-center space-y-2 pb-20">
+    <section className="px-4 md:px-40 flex flex-col items-center space-y-2 pb-20">
       <h1 className="text-5xl text-center font-bold">
         Get Started<span className="text-[#3981f7]">Today</span>
       </h1>

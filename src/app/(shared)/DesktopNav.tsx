@@ -2,9 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+export const links = [
+  "Everything",
+  "Platform",
+  "Trust",
+  "Why Choose us",
+  "Get Started",
+];
+
 const DesktopNav = () => {
   return (
-    <nav className="flex items-center justify-between px-20 py-5">
+    <nav className="hidden md:flex  items-center justify-between px-20 py-5">
       <div className="flex gap-5">
         <Image
           className="w-7"

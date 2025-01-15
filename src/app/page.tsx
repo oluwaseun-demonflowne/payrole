@@ -15,7 +15,7 @@ export default function Home() {
         src="/Dashboard.png"
         alt="Payrole Logo"
         unoptimized
-        className="w-full px-20"
+        className="w-full px-4 md:px-20"
         width={100}
         height={100}
       />

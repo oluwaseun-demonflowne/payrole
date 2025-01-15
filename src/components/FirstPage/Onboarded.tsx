@@ -3,7 +3,7 @@ import React from "react";
 
 const Onboarded = () => {
   return (
-    <section className="px-40 space-y-2 py-20">
+    <section className="px-4 md:px-40 space-y-2 py-20">
       <h1 className="text-5xl font-bold">
         From offer letter to Onboarded in
         {" "}

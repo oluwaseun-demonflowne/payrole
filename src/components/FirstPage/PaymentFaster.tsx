@@ -3,7 +3,7 @@ import React from "react";
 
 const PaymentFaster = () => {
   return (
-    <section className="px-40 space-y-2 pb-20">
+    <section className="px-4 md:px-40 space-y-2 pb-20">
       <h1 className="text-5xl font-bold">
         Send Payment <span className="text-[#3981f7]">Faster</span>
       </h1>

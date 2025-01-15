@@ -4,7 +4,7 @@ import { BiCopyright } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <footer className="flex items-center gap-10 px-40 pb-10">
+    <footer className="flex items-center gap-10 px-4 md:px-40 pb-10">
       <div className="flex text-[15px] gap-1 items-center">
         <Image
           className="w-7"

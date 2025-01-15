@@ -3,7 +3,7 @@ import React from "react";
 
 const Anywhere = () => {
   return (
-    <section className="px-40 space-y-2 pb-20">
+    <section className="px-4 md:px-40 space-y-2 pb-20">
       <h1 className="text-5xl font-bold">
         Hire from <span className="text-[#3981f7]">Anywhere</span>
       </h1>
