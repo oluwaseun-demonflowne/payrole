@@ -5,6 +5,7 @@ import Onboarded from "@/components/FirstPage/Onboarded";
 import PaymentFaster from "@/components/FirstPage/PaymentFaster";
 import TrustedBy from "@/components/FirstPage/TrustedBy";
 import Image from "next/image";
+import Footer from "./(shared)/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Anywhere />
       <PaymentFaster />
       <GetStarted />
+      <Footer />
     </main>
   );
 }
