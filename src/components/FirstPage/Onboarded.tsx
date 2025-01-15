@@ -15,7 +15,7 @@ const Onboarded = () => {
       </p>
       <div className=" flex items-start">
         <Image
-          src={`/illustration.png`}
+          src={"/onboard.png"}
           alt="brand"
           unoptimized
           className="w-[600px] mt-10"
