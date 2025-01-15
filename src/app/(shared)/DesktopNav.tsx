@@ -16,7 +16,7 @@ const DesktopNav = () => {
         />
         <h1 className="font-medium text-lg">Payrole</h1>
       </div>
-      <ul className="flex gap-7 font-medium">
+      <ul className="flex gap-10 font-medium">
         <li>How it works</li>
         <li>Features</li>
         <li>Pricing</li>
