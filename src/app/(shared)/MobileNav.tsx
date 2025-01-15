@@ -14,6 +14,7 @@ const MobileNav = () => {
 
   useGSAP(() => {
     if (openDrawer) {
+      document.body.style.overflow = "hidden";
       gsap.to("#drawer", {
         duration: 0.5,
         x: 0,
@@ -42,6 +43,7 @@ const MobileNav = () => {
         ease: "power1.in",
       });
     } else {
+      document.body.style.overflow = "auto";
       gsap.to("#drawer", {
         ease: "power1.in",
         x: -900,
@@ -68,6 +70,9 @@ const MobileNav = () => {
         ease: "power1.in",
       });
     }
+    return () => {
+      document.body.style.overflow = "auto";
+    };
   }, [openDrawer]);
   return (
     <div className="bg-white z-[99]   top-0 w-[100%] lg:hidden flex px-4 items-center justify-between h-20 ">
@@ -130,7 +135,7 @@ const MobileNav = () => {
             }}
             className="border h-12 border-[#3c3b3a] w-48 flex items-center justify-center rounded-full "
           >
-            Request a demo
+            Learn more
           </button>
         </div>
       </div>

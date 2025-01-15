@@ -3,11 +3,10 @@ import Link from "next/link";
 import React from "react";
 
 export const links = [
-  "Everything",
-  "Platform",
-  "Trust",
-  "Why Choose us",
-  "Get Started",
+  "How it works",
+  "Features",
+  "Pricing",
+  "Resources",
 ];
 
 const DesktopNav = () => {
